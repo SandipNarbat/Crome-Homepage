@@ -238,7 +238,66 @@ body{
     color: rgba(255, 255, 255, 0.5);
 }
 
+@media only screen and (max-width:400px){
+    .container{
+        padding: 20px 20px;
+    }
 
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .profile-info{
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-info h1{
+        font-size: 32px;
+    }
+    .profile-info p{
+        font-size: 10px;
+    }
+    .link{
+        border-radius: 5px;
+        width: 280px;
+        gap: 20px;
+        padding: 10px 10px;
+    }
+    .goggle-search input {
+        width: 192px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 36px;
+        padding-right: 15px;
+    }
+    .goggle-search button{
+        width: 40px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .goggle-search{
+        gap: 4px;
+    }
+    .social-link{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        width: 280px; 
+    }
+    .goggle-search .google{
+        position: absolute;
+        top: 12px;
+        left: 47px;
+        width: 16px;
+    }
+    body{
+        overflow:auto;
+    }
+}
 
 
 
