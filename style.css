@@ -17,11 +17,12 @@ body{
     padding: 60px 156px;
 }
 
-.profile-img{
-    width: 184px;
+.profile-img img{
+    /* width: 184px; */
     height: 184px;
     background-color: #fff;
     border-radius: 999px;
+    background-size: cover;
 }
 
 .profile{
@@ -238,6 +239,9 @@ body{
     color: rgba(255, 255, 255, 0.5);
 }
 
+
+
+
 @media only screen and (max-width:400px){
     .container{
         padding: 20px 20px;
@@ -298,6 +302,7 @@ body{
         overflow:auto;
     }
 }
+
 
 
 
