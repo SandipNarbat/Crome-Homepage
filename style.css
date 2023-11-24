@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #252525;
+    background-image: url("/assets of crome/Sandip.png  " );
+    background-blend-mode:overlay;
+    background-size: 5;
+    background-color: #1b1b1b;
     color: #fff;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Cedarville Cursive', cursive;
 
     overflow: hidden;
