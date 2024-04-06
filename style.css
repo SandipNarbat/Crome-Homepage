@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +11,7 @@ body{
     background-size: 5;
     background-color: #1b1b1b;
     color: #fff;
-    font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Montserrat', sans-serif;
 
     overflow: hidden;
     /* cursor: none; */
@@ -42,14 +42,14 @@ body{
 
 .profile-info h1{
     font-size: 53.97px;
-    font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Montserrat', sans-serif;
 }
 .profile-info p{
     font-size: 16px;
     text-transform: capitalize;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Montserrat', sans-serif;
 
 
 }
@@ -175,12 +175,12 @@ body{
     font-size: 18px;
     padding-right: 30px;
     background-color: transparent;
-    font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Montserrat', sans-serif;
     border: none;
     color: #000;
 }
 .goggle-search input::placeholder{
-    font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Montserrat', sans-serif;
     color: #000;
 }
 .goggle-search input:focus{
@@ -264,7 +264,7 @@ body{
 }
 .love h1{
     text-shadow: 2px 2px 10px #ff0000;
-    font-family: 'Kaushan Script', cursive;
+	font-family: 'Montserrat', sans-serif;
     -webkit-animation: breathing 5s ease-out infinite normal;
     animation: breathing 5s ease-out infinite normal;
 }
